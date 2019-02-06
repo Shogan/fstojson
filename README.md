@@ -4,6 +4,10 @@ fstojson is a multi-platform command line tool to convert filesystem directory s
 
 It is written in Node.js and packaged as executable binaries (containing the NodeJS runtime as well as the tool itself) for Windows, Linux and MacOS.
 
+# Download
+
+You can download the latest release executable binaries from [here](https://github.com/Shogan/fstojson/releases)
+
 # Usage
 
 Output the content of c:\example and all children directories as JSON:
