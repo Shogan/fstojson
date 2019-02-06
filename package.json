@@ -1,0 +1,17 @@
+{
+  "name": "fstojson",
+  "version": "1.0.0",
+  "description": "A multi-platform command line tool to convert filesystem directory structure to JSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fstojson": "./app.js"
+  },
+  "author": "Sean Duffy",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}
