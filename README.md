@@ -56,8 +56,7 @@ The **$powershellObject** object would then contain something like the following
 name                               path                                       type
 ----                               ----                                       ----
 console-example.log                c:\temp\console-example.log                File
-GG.FrontEnd.App.DonationCollection c:\temp\SomeDirectory                      Directory
-default-backend.yaml               c:\temp\default-backend.yaml               File
+SomeDirectory                      c:\temp\SomeDirectory                      Directory
 Dockerfile                         c:\temp\Dockerfile                         File
 ```
 
