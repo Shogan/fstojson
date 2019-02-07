@@ -6,7 +6,7 @@ It is written in Node.js and packaged as executable binaries (containing the Nod
 
 The JSON output for objects traversed by the tool looks like this for directories
 
-```json
+```javascript
 {
     "name": "directoryobject",
     "path": "/path/to/directoryobject",
@@ -20,7 +20,7 @@ The JSON output for objects traversed by the tool looks like this for directorie
 
 and looks like this for files:
 
-```json
+```javascript
 {
     "name": "fileobject",
     "path": "/path/to/fileobject",
