@@ -41,9 +41,12 @@ async function traversePath(path, results) {
         let isDirectory = await isObjectDirectory(object);
 
         if (isDirectory) {
-            let dirObject = { "name": pathObject, "path": object, children: tempArray };
+            let dirObject = { "name": pathObject, "path": object, "type": "Directory", children: tempArray };
             results.push(dirObject);
             await traversePath(object, tempArray);
+        } else {
+            let fileObject = { "name": pathObject, "path": object, "type": "File" };
+            results.push(fileObject);
         }
     }));
 
